@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8778de9c-d957-4219-a12f-9b59b3dd6899/dcf3npy-bfa84926-56ae-4267-ac09-b0ed7efc3b92.png/v1/fill/w_596,h_369,q_80,strp/ngnngghhhhhn_sky_by_silkanide_dcf3npy-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzY5IiwicGF0aCI6IlwvZlwvODc3OGRlOWMtZDk1Ny00MjE5LWExMmYtOWI1OWIzZGQ2ODk5XC9kY2YzbnB5LWJmYTg0OTI2LTU2YWUtNDI2Ny1hYzA5LWIwZWQ3ZWZjM2I5Mi5wbmciLCJ3aWR0aCI6Ijw9NTk2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.rH8pNHFqFgwqJuUaS6DbxamMEFpwQd1glzxEauQKizU');
+  background-size: cover;
+  background-color: #1C1C1C;
+  height: 100%;
+  border-radius: 4px;
+  font-family: 'Press Start 2P';
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button:hover {
+  opacity: 0.5;
+  transition: 0.3s;      
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 16%;
+  margin-right: 16%;
+  background: #ECF4FF;
+  color: #1C1C1C;
+  border-radius: 4px;
+  padding: 70px;
+  box-shadow: 4px 4px 0px black;
+  border: 1px solid black;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  max-width: 160px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px black;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 27px;
+  color: powderblue;
+  text-shadow: 4px 4px 0px black;
+}
+
+.titulo h3 {
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 10px;
+  padding: 16px 4px;
+  background: #ECF4FF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0E1D2F;
+  font-family: 'Press Start 2P';
+  box-shadow: 4px 4px 0px black;
+}
+
+.portfolio {
+  margin-top: 64px;
+  display: grid;
+  gap: 16px;
+}
+
+.projetos {
+  max-height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 32px;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  border-radius: 5px;
+  box-shadow: 2px 2px 0px black;
+}
+
+.projetos ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-size: 17px;
+  line-height: 2em;
+}
+
+.conquistas ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.conquistas li {
+  list-style-type: none;
+}
+
+.conquistas img {
+  max-height: 100px
+}
+
+.social {
+  display: block;
+  margin-top: 5px;
+  text-align: center;  
+}
+
+.dark {
+  background-image: url('https://p.favim.com/orig/2018/07/29/night-blue-pixel-Favim.com-6112936.jpg');
+}
+  
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .portfolio {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  color: #FFFFFF;
+  background: #1C1C1C;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #F7F7F7;
+}
+
+.dark .titulo h1 {
+  color: gold;
+}
+
+::-webkit-scrollbar{
+width: 5px;
+height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+background: #1C1C1C;
+border: 1.8px solid #1C1C1C;
+border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background: #ECF4FF;
+}
+
+::-webkit-scrollbar-track{
+background: #ECF4FF;
+border-radius: 100px;
+box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+margin: 15px 0px;
+}
