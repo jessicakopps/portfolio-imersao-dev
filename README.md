@@ -11,3 +11,6 @@ Projeto criado durante a Imersão Dev da Alura. </br>
 
 [![TvhfQ26.png](https://i.imgur.com/TvhfQ26.png)](https://imgur.com/TvhfQ26)
 </div>
+
+## Usando a aplicação
+Para usá-la, basta executar o arquivo index.html
