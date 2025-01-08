@@ -5,7 +5,7 @@ Projeto criado durante a Imersão Dev da Alura.
 
 <div align="center">
    
-[***Visite o projeto aqui***](https://porfolio-imersao-dev.vercel.app/)<br />
+[***Visite o projeto aqui***](https://portfolio-imersao-dev.vercel.app/)<br />
 
 
 [![TvhfQ26.png](https://i.imgur.com/TvhfQ26.png)](https://imgur.com/TvhfQ26)
